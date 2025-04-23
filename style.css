@@ -1,153 +1,153 @@
 /* Estilos generales */
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff0f5;
-  color: #333;
-}
-
-/* Logo pequeño y alineado */
-.logo {
-  height: 50px;
-  max-width: 100%;
-  vertical-align: middle;
-  margin-right: 20px;
-}
-
-/* Encabezado */
-header {
-  background: pink;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 28px;
-}
-
-/* Menú de navegación */
-nav {
-  background: #ffb6c1;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s, transform 0.3s;
-}
-
-nav a:hover {
-  color: #fff0f5;
-  transform: scale(1.1);
-}
-
-/* Hero con logo grande */
-.hero {
-  padding: 40px;
-  text-align: center;
-  background: #ffe4e1;
-  color: #333;
-}
-
-.logo-grande {
-  width: 200px;
-  max-width: 90%;
-  margin-bottom: 20px;
-}
-
-/* Botón con animación */
-.btn {
-  padding: 12px 25px;
-  background: #ff69b4;
-  border: none;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 10px;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
-}
-
-/* Galería de productos */
-.galeria {
-  padding: 30px;
-}
-
-.galeria h2 {
-  text-align: center;
-  font-size: 26px;
-}
-
-.galeria-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta para que las imágenes sean más grandes */
-  gap: 20px;
-  padding: 20px 0;
-}
-
-.galeria-grid img {
-  width: 100%;
-  max-width: 300px;  /* Limita el tamaño máximo de las imágenes para que no se vean desmesuradas */
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.galeria-grid img:hover {
-  transform: scale(1.1); /* El zoom al pasar el mouse */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Sección de Ofertas y Contacto */
-.ofertas, .contacto {
-  padding: 30px;
-  background: #ffe4e1;
-  margin: 20px;
-  border-radius: 10px;
-}
-
-.ofertas h2, .contacto h2 {
-  text-align: center;
-  font-size: 24px;
-}
-
-/* Formulario */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-input, textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1em;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px;
-  background: pink;
-  color: white;
-}
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #333;
+  }
+  
+  /* Logo pequeño y alineado */
+  .logo {
+    height: 50px;
+    max-width: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  /* Encabezado */
+  header {
+    background: pink;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  /* Menú de navegación */
+  nav {
+    background: #ffb6c1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  nav a:hover {
+    color: #fff0f5;
+    transform: scale(1.1);
+  }
+  
+  /* Hero con logo grande */
+  .hero {
+    padding: 40px;
+    text-align: center;
+    background: #ffe4e1;
+    color: #333;
+  }
+  
+  .logo-grande {
+    width: 200px;
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  /* Botón con animación */
+  .btn {
+    padding: 12px 25px;
+    background: #ff69b4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+  }
+  
+  /* Galería de productos */
+  .galeria {
+    padding: 30px;
+  }
+  
+  .galeria h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta para que las imágenes sean más grandes */
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .galeria-grid img {
+    width: 100%;
+    max-width: 300px;  /* Limita el tamaño máximo de las imágenes para que no se vean desmesuradas */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .galeria-grid img:hover {
+    transform: scale(1.1); /* El zoom al pasar el mouse */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Sección de Ofertas y Contacto */
+  .ofertas, .contacto {
+    padding: 30px;
+    background: #ffe4e1;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .ofertas h2, .contacto h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: pink;
+    color: white;
+  }
 
