@@ -96,21 +96,22 @@ nav a:hover {
 
 .galeria-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta para que las imágenes sean más grandes */
+  gap: 20px;
   padding: 20px 0;
 }
 
 .galeria-grid img {
   width: 100%;
+  max-width: 300px;  /* Limita el tamaño máximo de las imágenes para que no se vean desmesuradas */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .galeria-grid img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transform: scale(1.1); /* El zoom al pasar el mouse */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Sección de Ofertas y Contacto */
@@ -149,3 +150,4 @@ footer {
   background: pink;
   color: white;
 }
+
