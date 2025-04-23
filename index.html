@@ -8,25 +8,27 @@
 </head>
 <body>
 
-  <header>
+  <header id="inicio">
     Beauty Woman
   </header>
 
   <nav>
-    <a href="Beauty Woman">Inicio</a>
-    <a href="#productos">Productos</a>
-    <a href="#ofertas">Ofertas</a>
-    <a href="#contacto">Contacto</a>
+    <a href="inicio">Inicio</a>
+    <a href="productos">Productos</a>
+    <a href="ofertas">Ofertas</a>
+    <a href="contacto">Contacto</a>
   </nav>
 
   <main>
-    <div class="hero"></div>
+    <section class="hero"></section>
 
-    <h2>Bienvenida a Beauty Woman</h2>
-    <p>En cada pincelada, una oportunidad para celebrar tu belleza.<br> Nuestra pasión es ofrecerte herramientas y productos que te inspiren a experimentar y a amar cada versión de ti misma.</p>
+    <section class="bienvenida">
+      <h2>Bienvenida a Beauty Woman</h2>
+      <p>En cada pincelada, una oportunidad para celebrar tu belleza.<br> Nuestra pasión es ofrecerte herramientas y productos que te inspiren a experimentar y a amar cada versión de ti misma.</p>
+      <button class="btn">Ver Colección</button>
+    </section>
 
-    <button class="btn">Ver Colección</button>
-
+    <!-- Sección de Productos -->
     <section class="galeria" id="productos">
       <h2>Nuestra Colección</h2>
       <div class="galeria-grid">
@@ -43,14 +45,38 @@
         <img src="contorno.jpg" alt="contornos">
         <img src="delineador.jpg" alt="Delineadores">
         <img src="pestañol.jpg" alt="Pestañol">
-      </div>
+</div>
+    </section>
+
+    <!-- Sección de Ofertas -->
+    <section class="ofertas" id="ofertas">
+      <h2>Ofertas Especiales</h2>
+      <p>¡Descubre nuestros descuentos por tiempo limitado! 💸</p>
+      <ul>
+        <li><strong>Paleta de sombras -20%</strong></li>
+        <li><strong>Set de brochas -15%</strong></li>
+        <li><strong>Labiales mate -30%</strong></li>
+      </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+      <h2>Contáctanos</h2>
+      <p>¿Tienes dudas o quieres hacer un pedido? Escríbenos te responderemos con mucho gusto 💌</p>
+      <form>
+        <input type="text" placeholder="Mariana Mendoza" required>
+        <input type="email" placeholder="erick4ljeje@gmail.com" required>
+        <textarea placeholder="Cualquier duda que tenga nuestros productos no dude en en preguntar que estamos para servirle 😊..." rows="4" required></textarea>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
-  <footer id="contacto">
+  <footer>
     © 2025 Beauty Woman | Todos los derechos reservados
   </footer>
 
   <script src="main.js"></script>
 </body>
 </html>
+
