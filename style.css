@@ -9,7 +9,7 @@ body {
 /* Logo pequeño y alineado */
 .logo {
   height: 50px;
-  max-width: 100%;
+  max-width: 50%;
   vertical-align: middle;
   margin-right: 10px;
 }
